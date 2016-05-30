@@ -1,5 +1,5 @@
-<h1>Base React-Django App</h1>
-This is a blank django-backend/react-frontend web application that uses webpack to manage static files. Django-rest-framework is setup so that you can make API requests for data from the frontend. Also, css is being loaded through the javascript require syntax through webpack.
+<h1>Youniversity Blog</h1>
+This is a blog django-backend/react-frontend web application that uses webpack to manage static files. Django-rest-framework is setup so that you can make API requests for data from the frontend. Also, css is being loaded through the javascript require syntax through webpack.
 
 <h2>Install dependencies</h2>
 
