@@ -1,0 +1,16 @@
+{% load render_bundle from webpack_loader %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Youniversity Blog</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+  </head>
+
+  <body>
+    <div id="react-app"></div>
+    <div id="post-id" type="hidden" data-id={{ p_id }}></div>
+    {% render_bundle 'post' %}
+  </body>
+</html>

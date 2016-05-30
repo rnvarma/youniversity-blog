@@ -1,0 +1,39 @@
+@import 'variables';
+@import 'mixins';
+
+.comments-container {
+    padding: 30px;
+
+    @include respond-to(xsmall) {
+        padding: 0px;
+    }
+
+    @include respond-to(small) {
+        padding: 0px;
+    }
+}
+
+.comment {
+    padding: 15px;
+    border-bottom: 1px solid $light-grey;
+
+    .metadata {
+        margin-top: 10px;
+
+        .time {
+            display: inline-block;
+            padding-right: 10px;
+            border-right: 1px solid black;
+        }
+
+        .name-area {
+            display: inline-block;
+            padding-left: 10px;
+
+            .name {
+                font-weight: 800;
+                color: black;
+            }
+        }
+    }
+}

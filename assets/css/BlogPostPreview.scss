@@ -1,0 +1,36 @@
+@import 'variables';
+
+.blog-post-preview {
+
+    padding: 30px;
+    border-bottom: 1px solid $light-grey;
+
+    .title {
+        font-size: 20px;
+        font-weight: 800;
+        color: $you-green;
+    }
+
+    .body {
+        margin-top: 10px;
+        font-weight: 100;
+        font-size: 16px;
+    }
+
+    .metadata {
+        font-weight: 800;
+        color: black;
+        margin-top: 10px;
+
+        .time {
+            display: inline-block;
+            border-right: 1px solid black;
+            padding-right: 10px;
+        }
+
+        .author {
+            display: inline-block;
+            padding-left: 10px;
+        }
+    }
+}

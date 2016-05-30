@@ -1,0 +1,36 @@
+@import 'variables';
+@import 'mixins';
+
+.post {
+    padding: 30px;
+
+    @include respond-to(xsmall) {
+        padding: 0px;
+    }
+
+    @include respond-to(small) {
+        padding: 0px;
+    }
+
+    .title {
+        font-size: 30px;
+        font-weight: 800;
+        color: $you-green;
+    }
+
+    .author {
+        margin-top: 10px;
+
+        .name {
+            color: black;
+            font-weight: 800;
+            font-size: 16px;
+        }
+    }
+
+    .body {
+        margin-top: 10px;
+        font-weight: 100;
+        font-size: 18px;
+    }
+}

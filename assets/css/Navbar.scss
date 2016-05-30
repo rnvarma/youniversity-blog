@@ -1,0 +1,14 @@
+@import 'variables';
+
+.navbar-brand {
+    text-transform: uppercase;
+    font-family: 'Fjalla One', sans-serif;
+
+    .you {
+        color: $you-green;
+    }
+
+    .niversity {
+        color: $dark-grey;
+    }
+}
